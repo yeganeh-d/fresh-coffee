@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--------------------------------- header -------------------------->
+    <header>
+        <nav>
+            <div class="left-logo">
+                <img src="img/logo2.jpg" alt="">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Menu</a>
+                    </li>
+                    <li>
+                        <a href="">Products</a>
+                    </li>
+                    <li>
+                        <a href="">Review</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Blogs</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="right-logo">
+                <i class="fa fa-times" id="nav-close" onclick="hideMenu()"></i>
+
+                <i class="fa fa-search" id="searchIcon" onclick="search()"></i>
+                <i class="fa fa-shopping-cart" id="basketIcon" onclick="showItems()"></i>
+                <i class="fa fa-bars" id="bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <div class="text">
+            <h1>FRESH COFFEE IN <br> THE MORNING</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non deleniti vero at <br>labore exercitationem debitis. Minima obcaecati accusantium totam quia.</p>
+            <a href="" class="btn">Get It Now</a>
+
+        </div>
+    </header>
+    <!-------------------------- about us ----------------------------->
+    <section class="aboutUs">
+        <h1><span class="text-color">ABOUT</span> US</h1>
+        <div class="row">
+            <div class="about-col"><img src="img/cup2.jpg" alt=""></div>
+            <div class="about-col">
+                <h2>What Makes Our Coffee Special?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dolorem debitis qui? <br> Voluptas ea itaque aperiam sint, assumenda ratione mollitia<br> saepe facere quas culpa tenetur, minus quidem fugit corrupti aliquam!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ratione.</p>
+                <button class="btn">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- MENU ----------------------------->
+    <section class="menu">
+        <h1>OUR <span class="text-color">MENU</span></h1>
+        <div class="row">
+            <div class="menu-col">
+                <img src="img/cup3.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="menu-col">
+                <img src="img/cup4.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="menu-col">
+                <img src="img/cup1.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-col">
+                <img src="img/cup3.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="menu-col">
+                <img src="img/cup4.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+            <div class="menu-col">
+                <img src="img/cup1.jpg" alt="">
+                <h3>Tasty And Healthy</h3>
+                <p>$15.99</p>
+                <button class="btn">Add To Cart</button>
+            </div>
+        </div>
+
+    </section>
+    <!-------------------------- PRODUCTS ----------------------------->
+    <section class="products">
+        <h1> <span class="text-color">LATEST</span> PRODUCTS</h1>
+        <div class="row">
+            <div class="col-products">
+                <div class="icons">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <img src="img/cafee-logo.jpg" alt="">
+                <h2>FRESH COFFEE</h2>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <p>$15.99</p>
+            </div>
+            <div class="col-products">
+                <div class="icons">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <img src="img/cafee-logo.jpg" alt="">
+                <h2>FRESH COFFEE</h2>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <p>$15.99</p>
+
+            </div>
+            <div class="col-products">
+                <div class="icons">
+                    <i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-heart"></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <img src="img/cafee-logo.jpg" alt="">
+                <h2>FRESH COFFEE</h2>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <p>$15.99</p>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- REVIEW ----------------------------->
+    <section class="review">
+        <h1>CUSTOMER'S <span class="text-color">REVIEW</span></h1>
+        <div class="row">
+            <div class="col-review">
+                <i class="gioomeh"><i class="fa fa-quote-right" aria-hidden="true"></i></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat molestiae voluptatibus nisi labore culpa optio quidem nam ipsum aspernatur. <br>Facilis tempore sint quam laboriosam est minima dolores ipsa quos fugit.
+                </p>
+                <img src="img/user1.jpg" alt="">
+                <h3>John Deo</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <div class="col-review">
+                <i class="gioomeh"><i class="fa fa-quote-right" aria-hidden="true"></i></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat molestiae voluptatibus nisi labore culpa optio quidem nam ipsum aspernatur. <br>Facilis tempore sint quam laboriosam est minima dolores ipsa quos fugit.
+                </p>
+                <img src="img/user2.jpg" alt="">
+                <h3>Mark Smith</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <div class="col-review">
+                <i class="gioomeh"><i class="fa fa-quote-right" aria-hidden="true"></i></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Fugiat molestiae voluptatibus nisi labore culpa optio quidem nam ipsum aspernatur. <br>Facilis tempore sint quam laboriosam est minima dolores ipsa quos fugit.
+                </p>
+                <img src="img/user1.jpg" alt="">
+                <h3>David Bekam</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- CONTACT ----------------------------->
+    <section class="contact">
+        <h1><span class="text-color">CONTACT</span> US</h1>
+        <div class="row">
+            <div class="col-contact">
+                <img src="img/cafee-logo.jpg" alt="">
+            </div>
+            <div class="col-contact">
+                <h2>GET IN TOUCH</h2>
+                <form action="">
+                    <input type="text" placeholder="name"><br>
+                    <input type="email" placeholder="email"><br>
+                    <input type="tel" placeholder="number"><br>
+                </form>
+                <button>Contact Now</button>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- BLOGS ----------------------------->
+    <section class="blogs">
+        <h1>OUR <span class="text-color">BLOGS</span></h1>
+        <div class="row">
+            <div class="col-blogs">
+                <img src="img/cup3.jpg" alt="">
+                <h2>Tasty And Refreshing Coffee</h2>
+                <pr>By Admin / 1st May,2021</pr> <br>
+                <button>Read More</button>
+            </div>
+            <div class="col-blogs">
+                <img src="img/cup2.jpg" alt="">
+                <h2>Tasty And Refreshing Coffee</h2>
+                <pr>By Admin / 1st May,2021</pr> <br>
+                <button>Read More</button>
+            </div>
+            <div class="col-blogs">
+                <img src="img/cup1.jpg" alt="">
+                <h2>Tasty And Refreshing Coffee</h2>
+                <pr>By Admin / 1st May,2021</pr> <br>
+                <button>Read More</button>
+            </div>
+        </div>
+    </section>
+    <!-------------------------- footer ----------------------------->
+    <footer>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-pinterest"></i>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Menu</a>
+                </li>
+                <li>
+                    <a href="">Products</a>
+                </li>
+                <li>
+                    <a href="">Review</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Blogs</a>
+                </li>
+            </ul>
+        </div>
+        <p>Created By
+            <span class="text-color">Mrs.Developer</span> Y.Dehlavi | All Rights Reserved</p>
+    </footer>
+
+    <!-- js for header -->
+    <script>
+        // var searching = document.getElementById("searchIcon")
+        // var buying = document.getElementById("basketIcon")
+        // search
+        // function search() {
+        //     searchIcon.style.color = 'red ';
+        // }
+        // //basket
+        // function showItems() {
+        //     basketIcon.style.color = 'red ';
+        // }
+        //bar menu
+        // var barMenu = document.getElementById("nav-icons");
+        //
+        // function showMenu() {
+        //     barMenu.style.right = "0";
+        // }
+        //
+        // function hideMenu() {
+        //     barMenu.style.right = "-200px";
+        // }
+        //
+
+        var links = document.getElementById("nav-links");
+
+        function hideMenu() {
+            links.style.right = "-200px";
+        }
+
+        function showMenu() {
+            links.style.right = "0";
+
+        }
+    </script>
+</body>
+
+</html>
